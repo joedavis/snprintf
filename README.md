@@ -23,12 +23,12 @@ It does *not* include support for:
     purely for simplicity of the implementation.
 
 The code has been written with extensibility in mind, so all but the 
-POSIX extensions and floating point support would be easy to add if do 
-need it.
+POSIX extensions and floating point support would be easy to add if 
+needed.
 
 # License: ISC
 
-> Copyright (c) 2018, Joe Davis <me@jo.ie>
+> Copyright &copy; 2018, Joe Davis <me@jo.ie>
 >
 > Permission to use, copy, modify, and/or distribute this software for 
 > any purpose with or without fee is hereby granted, provided that the 
