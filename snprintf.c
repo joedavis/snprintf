@@ -390,7 +390,7 @@ static void
 fmt_string(char *buf, size_t sz, size_t *idx, const char *s, int flags,
     size_t field_width, size_t precision)
 {
-	size_t len = precision ? strnlen(s, precision) : strlen(precision);
+	size_t len = precision ? strnlen(s, precision) : strlen(s);
 
 	if (!(flags & LEFT_JUSTIFY)) {
 		for (size_t i = len; i < field_width; i++)
